@@ -3,11 +3,8 @@ a:hover {
 }
 
 
-
-
 h1 {
     text-align: center;
-    font-family: times; 
 }
 
 h2 {
@@ -21,3 +18,5 @@ h3 {
 .lab {
     font-family:courier;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900italic);
