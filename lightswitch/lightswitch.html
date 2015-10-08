@@ -1,0 +1,172 @@
+<html>
+
+
+<head>
+<title>Light Switch. By Jun</title>
+<script type="text/javascript">
+
+function changeIt(objName)
+{
+	var obj = document.getElementById(objName);
+	var objId = new Array();
+	
+	objId[0] = "image1";
+	objId[1] = "image2";
+	objId[2] = "image3";
+	objId[3] = "image4";
+	objId[4] = "image5";
+	objId[5] = "image6";
+	objId[6] = "image7";
+	
+	var i;
+	var tempObj;
+	
+	for(i=0;i<objId.length;i++)
+	{
+		if(objName == objId[i])
+		{
+			obj.style.display = "block";
+		}
+		else
+		{
+			tempObj = document.getElementById(objId[i]);
+			tempObj.style.display = "none";	
+		}
+	}
+	return;	
+}
+</script>
+</head>
+
+<body>
+
+<div class="box">
+
+<div id="image1">
+<img src="1.jpg" border="0" alt="one" />
+</div>
+
+<div id="image2" style="display:none">
+<img src="2.jpg" border="0" alt="two" />
+</div>
+
+<div id="image3" style="display:none">
+<img src="3.jpg" border="0" alt="three" />
+</div>
+
+<div id="image4" style="display:none">
+<img src="4.jpg" border="0" alt="four" />
+</div>
+
+<div id="image5" style="display:none">
+<img src="5.jpg" border="0" alt="five" />
+</div>
+
+<div id="image6" style="display:none">
+<img src="6.jpg" border="0" alt="six" />
+</div>
+
+<div id="image7" style="display:none">
+<img src="7.jpg" border="0" alt="seven" />
+</div>
+
+<a id="one" href="#" onclick="changeIt('image1');"><h1>OFF</h1></a>
+<a id="two" href="#" onclick="changeIt('image2');"><h2>ON</h2></a>
+<a id="three" href="#" onclick="changeIt('image3');"><h3>Music</h3></a>
+<a id="four" href="#" onclick="changeIt('image4');"><h4>Desk</h4></a>
+<a id="five" href="#" onclick="changeIt('image5');"><h5>Closet</h5></a>
+<a id="six" href="#" onclick="changeIt('image6');"><h6>MakeUp</h6></a>
+<a id="seven" href="#" onclick="changeIt('image7');"><h7>Bed</h7></a>
+</div>
+
+</body>
+
+<style>
+.box { 
+    display: inline-block;
+    position: relative; 
+    width: 100%;
+}
+
+a:link {
+    color: #231f20; text-decoration: none;
+}
+
+a:visited {
+    color: #231f20; text-decoration: none;
+}
+
+a:hover {
+    color: #FF00FF; text-decoration: none;
+}
+
+a:active {
+    color: #f73666; text-decoration: none;
+}
+
+
+h1 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 390px; 
+	left: 460px; 
+	width: 100px; 
+}
+
+h2 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 300px; 
+	left: 463px; 
+	width: 100px; 
+}
+
+h3 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 80px; 
+	left: 350px; 
+	width: 100px; 
+}
+
+h4 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 330px; 
+	left: 100px; 
+	width: 100px; 
+}
+
+h5 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 330px; 
+	left: 790px; 
+	width: 100px; 
+}
+
+h6 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 575px; 
+	left: 275px; 
+	width: 100px; 
+}
+
+h7 { 
+	font-family: Helvetica-bold, san-serif;
+	font-size: 18px;
+	position: absolute; 
+	top: 535px; 
+	left: 700px; 
+	width: 100px; 
+}
+
+</style>
+</html>
