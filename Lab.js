@@ -1,5 +1,3 @@
-
-
 <center> <h1>POP ART by Keith Haring</h1></center>
 
 <script language="javascript">
@@ -42,6 +40,3 @@ curindex=tempindex
 setInterval("rotateimage()",delay)
 
 </script>
-
-<p align="center">M O V E M E N T<br />
-</p>

@@ -1,0 +1,128 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://kyungjunjanggithubio-kyungjunjang.c9.io" resolutions="1x" timestamp="1447151714300">
+  <folder name="css">
+    <file name="site_global.css" crc="3881928330"/>
+    <file name="index.css" crc="4132756178" ref="index"/>
+    <file name="iefonts_index.css" crc="4206792564" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="275725342" ref="phone>index:tablet>index:index"/>
+    <file name="webpro.js" crc="3883484123" ref="phone>index:tablet>index"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="phone>index:tablet>index"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="phone>index:tablet>index"/>
+    <file name="touchswipe.js" crc="4218319045" ref="phone>index:tablet>index"/>
+    <file name="jquery.scrolleffects.js" crc="206645848" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:tablet>index:index"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:tablet>index"/>
+    <file name="form_check.php" crc="3932029206" ref="phone>index:tablet>index"/>
+    <file name="form_throttle.php" crc="314685628" ref="phone>index:tablet>index"/>
+    <file name="form_process.php" crc="401030677" ref="phone>index:tablet>index"/>
+    <file name="form-u2107.php" crc="4137306959" ref="phone>index"/>
+    <file name="museredirect.js" crc="3899419633" ref="tablet>index:index"/>
+    <file name="form-u2066.php" crc="3995255319" ref="tablet>index"/>
+  </folder>
+  <folder name="images">
+    <file name="u1605.png" crc="3936616513" ref="phone>index"/>
+    <file name="u1605-r.png" crc="3805825367" ref="phone>index"/>
+    <file name="u1609.png" crc="81151641" ref="phone>index"/>
+    <file name="u1609-r.png" crc="4243815423" ref="phone>index"/>
+    <file name="u1607.png" crc="171216067" ref="phone>index"/>
+    <file name="u1607-r.png" crc="315577091" ref="phone>index"/>
+    <file name="bkg_01.jpg" crc="4006404638" ref="phone>index:tablet>index"/>
+    <file name="img_02.jpg" crc="243498797" ref="phone>index:tablet>index"/>
+    <file name="img_04.jpg" crc="4090859366" ref="phone>index:tablet>index"/>
+    <file name="img_01.jpg" crc="231211065" ref="phone>index:tablet>index"/>
+    <file name="img_05.jpg" crc="4012734519" ref="phone>index:tablet>index"/>
+    <file name="img_03.jpg" crc="4132196467" ref="phone>index:tablet>index"/>
+    <file name="img_07.jpg" crc="365295197" ref="phone>index:tablet>index"/>
+    <file name="bkg_02.jpg" crc="4019005361" ref="phone>index:tablet>index"/>
+    <file name="u2112-17.png" crc="4194694477" ref="phone>index"/>
+    <file name="u2112-17-r.png" crc="382258029" ref="phone>index"/>
+    <file name="u2112-17-m.png" crc="382258029" ref="phone>index"/>
+    <file name="u2112-17-fs.png" crc="4194694477" ref="phone>index"/>
+    <file name="social_06_linkedin-u2589.png" crc="352832810" ref="phone>index"/>
+    <file name="social_09_vimeo-u2591.png" crc="4011200427" ref="phone>index"/>
+    <file name="social_01_twitter-u2587.png" crc="343893502" ref="phone>index"/>
+    <file name="u1595.png" crc="3871035325" ref="tablet>index"/>
+    <file name="u1595-r.png" crc="3759278143" ref="tablet>index"/>
+    <file name="u1599.png" crc="3848521147" ref="tablet>index"/>
+    <file name="u1599-r.png" crc="160210354" ref="tablet>index"/>
+    <file name="u1597.png" crc="168641837" ref="tablet>index"/>
+    <file name="u1597-r.png" crc="4248504002" ref="tablet>index"/>
+    <file name="u2100-17.png" crc="4194694477" ref="tablet>index"/>
+    <file name="u2100-17-r.png" crc="382258029" ref="tablet>index"/>
+    <file name="u2100-17-m.png" crc="382258029" ref="tablet>index"/>
+    <file name="u2100-17-fs.png" crc="4194694477" ref="tablet>index"/>
+    <file name="social_01_twitter-u2607.png" crc="343893502" ref="tablet>index"/>
+    <file name="social_06_linkedin-u2609.png" crc="352832810" ref="tablet>index"/>
+    <file name="social_09_vimeo-u2611.png" crc="4011200427" ref="tablet>index"/>
+    <file name="front_background_01.jpg" crc="283797831" ref="index"/>
+    <file name="front_background_02.jpg" crc="259562009" ref="index"/>
+    <file name="com9_0021_layer-0.jpg" crc="4102070929" seo="true" ref="index"/>
+    <file name="com9_0012_layer-4-copy.png" crc="4066687010" seo="true" ref="index"/>
+    <file name="com9_0016_ellipse-1.png" crc="4177619738" seo="true" ref="index"/>
+    <file name="com9_0020_rectangle-1.jpg" crc="4100114656" seo="true" ref="index"/>
+    <file name="com9_0007_rounded-rectangle-2.png" crc="4162692410" seo="true" ref="index"/>
+    <file name="com9_0019_rectangle-5-copy.png" crc="317550272" seo="true" ref="index"/>
+    <file name="com9_0000_layer-3.png" crc="342577824" seo="true" ref="index"/>
+    <file name="com9_0001_e.png" crc="214396946" seo="true" ref="index"/>
+    <file name="com9_0002_rectangle-2.png" crc="304939922" seo="true" ref="index"/>
+    <file name="com9_0003_rectangle-4-copy-3.jpg" crc="4192296337" seo="true" ref="index"/>
+    <file name="com9_0004_rectangle-4-copy-2.jpg" crc="3840168727" seo="true" ref="index"/>
+    <file name="com9_0006_rectangle-4.jpg" crc="4175565687" seo="true" ref="index"/>
+    <file name="com9_0008_ellipse-2.png" crc="242809069" seo="true" ref="index"/>
+    <file name="com9_0009_rectangle-3.jpg" crc="4211358162" seo="true" ref="index"/>
+    <file name="com9_0010_layer-5.png" crc="475428919" seo="true" ref="index"/>
+    <file name="com9_0013_layer-4.png" crc="407395360" seo="true" ref="index"/>
+    <file name="com9_0018_layer-6.png" crc="4202211470" seo="true" ref="index"/>
+    <file name="com9_0014_rectangle-5.png" crc="421035296" seo="true" ref="index"/>
+    <file name="com9_0015_layer-1.png" crc="4277561819" seo="true" ref="index"/>
+    <file name="com9_0017_rectangle-6.jpg" crc="475520656" seo="true" ref="index"/>
+    <file name="com9_0011_layer-4-copy-2.png" crc="523509338" seo="true" ref="index"/>
+    <file name="com9_0005_rectangle-4-copy.jpg" crc="4175565687" seo="true" ref="index"/>
+    <file name="29.jpg" crc="4013722127" seo="true" ref="index"/>
+    <file name="21.jpg" crc="4087682164" seo="true" ref="index"/>
+    <file name="27.jpg" crc="3882970293" seo="true" ref="index"/>
+    <file name="16.png" crc="75624824" seo="true" ref="index"/>
+    <file name="30.jpg" crc="4004910674" seo="true" ref="index"/>
+    <file name="07.png" crc="3811322767" seo="true" ref="index"/>
+    <file name="04.png" crc="3799560732" seo="true" ref="index"/>
+    <file name="12.png" crc="4169096655" seo="true" ref="index"/>
+    <file name="23.jpg" crc="4214645882" seo="true" ref="index"/>
+    <file name="14.png" crc="4161878159" seo="true" ref="index"/>
+    <file name="20.jpg" crc="4020163108" seo="true" ref="index"/>
+    <file name="19.png" crc="255565721" seo="true" ref="index"/>
+    <file name="13.png" crc="4171694052" seo="true" ref="index"/>
+    <file name="15.png" crc="247859698" seo="true" ref="index"/>
+    <file name="17.png" crc="293685065" seo="true" ref="index"/>
+    <file name="18.png" crc="3895911243" seo="true" ref="index"/>
+    <file name="22.jpg" crc="4187535091" seo="true" ref="index"/>
+    <file name="24.jpg" crc="3786826724" seo="true" ref="index"/>
+    <file name="25.jpg" crc="123009875" seo="true" ref="index"/>
+    <file name="26.png" crc="369305337" seo="true" ref="index"/>
+    <file name="28.jpg" crc="4130525190" seo="true" ref="index"/>
+    <file name="11.png" crc="321031413" seo="true" ref="index"/>
+    <file name="10.png" crc="408160508" seo="true" ref="index"/>
+    <file name="09.png" crc="325786338" seo="true" ref="index"/>
+    <file name="08.jpg" crc="174659984" seo="true" ref="index"/>
+    <file name="05.jpg" crc="331363197" seo="true" ref="index"/>
+    <file name="06.jpg" crc="4045286340" seo="true" ref="index"/>
+    <file name="03.png" crc="178322939" seo="true" ref="index"/>
+    <file name="02.png" crc="3802636065" seo="true" ref="index"/>
+    <file name="01.png" crc="3828683218" seo="true" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="6422141" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4081088803" seo="true" mt="1447141003801" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="3806957570" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="226117566" seo="true" mt="1447141003804" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3761326622" seo="true" mt="1447151675155" redirect="true"/>
+</manifest>

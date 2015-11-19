@@ -1,0 +1,738 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Composition 10</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".outerbox1").hide();
+	$(".outerbox2").hide();
+	$(".outerbox3").hide();
+	$(".outerbox4").hide();
+	$(".outerbox5").hide();
+	$(".outerbox6").hide();
+    $(".menu0").addClass('filled');
+
+
+    $(".menu0").click(function(){
+	    $(".menu0").addClass('filled');
+	    $(".menu1").removeClass('filled');
+	    $(".menu2").removeClass('filled');
+	    $(".menu3").removeClass('filled');
+	    $(".menu4").removeClass('filled');
+	    $(".menu5").removeClass('filled');
+	    $(".menu6").removeClass('filled');
+        $(".outerbox0").show();
+		$(".outerbox1").hide();
+		$(".outerbox2").hide();
+		$(".outerbox3").hide();
+		$(".outerbox4").hide();
+		$(".outerbox5").hide();
+		$(".outerbox6").hide();
+    });
+
+
+	$(".menu1").click(function(){
+	    $(".menu1").addClass('filled');
+	    $(".menu0").removeClass('filled');
+	    $(".menu2").removeClass('filled');
+	    $(".menu3").removeClass('filled');
+	    $(".menu4").removeClass('filled');
+	    $(".menu5").removeClass('filled');
+	    $(".menu6").removeClass('filled');
+        $(".outerbox1").show();
+		$(".outerbox0").hide();
+		$(".outerbox2").hide();
+		$(".outerbox3").hide();
+		$(".outerbox4").hide();
+		$(".outerbox5").hide();
+		$(".outerbox6").hide();
+    });
+	
+	$(".menu2").click(function(){
+	    $(".menu2").addClass('filled');
+	    $(".menu0").removeClass('filled');
+	    $(".menu1").removeClass('filled');
+	    $(".menu3").removeClass('filled');
+	    $(".menu4").removeClass('filled');
+	    $(".menu5").removeClass('filled');
+	    $(".menu6").removeClass('filled');
+        $(".outerbox2").show();
+		$(".outerbox0").hide();
+		$(".outerbox1").hide();
+		$(".outerbox3").hide();
+		$(".outerbox4").hide();
+		$(".outerbox5").hide();
+		$(".outerbox6").hide();
+    });
+    
+    $(".menu3").click(function(){
+	    $(".menu3").addClass('filled');
+	    $(".menu0").removeClass('filled');
+	    $(".menu1").removeClass('filled');
+	    $(".menu2").removeClass('filled');
+	    $(".menu4").removeClass('filled');
+	    $(".menu5").removeClass('filled');
+	    $(".menu6").removeClass('filled');
+        $(".outerbox3").show();
+		$(".outerbox0").hide();
+		$(".outerbox1").hide();
+		$(".outerbox2").hide();
+		$(".outerbox4").hide();
+		$(".outerbox5").hide();
+		$(".outerbox6").hide();
+    });
+    
+    $(".menu4").click(function(){
+	    $(".menu4").addClass('filled');
+	    $(".menu0").removeClass('filled');
+	    $(".menu1").removeClass('filled');
+	    $(".menu2").removeClass('filled');
+	    $(".menu3").removeClass('filled');
+	    $(".menu5").removeClass('filled');
+	    $(".menu6").removeClass('filled');
+        $(".outerbox4").show();
+		$(".outerbox0").hide();
+		$(".outerbox1").hide();
+		$(".outerbox2").hide();
+		$(".outerbox3").hide();
+		$(".outerbox5").hide();
+		$(".outerbox6").hide();
+    });
+    
+    $(".menu5").click(function(){
+	    $(".menu5").addClass('filled');
+	    $(".menu0").removeClass('filled');
+	    $(".menu1").removeClass('filled');
+	    $(".menu2").removeClass('filled');
+	    $(".menu3").removeClass('filled');
+	    $(".menu4").removeClass('filled');
+	    $(".menu6").removeClass('filled');
+        $(".outerbox5").show();
+		$(".outerbox0").hide();
+		$(".outerbox1").hide();
+		$(".outerbox2").hide();
+		$(".outerbox3").hide();
+		$(".outerbox4").hide();
+		$(".outerbox6").hide();
+    });
+    
+    $(".menu6").click(function(){
+	    $(".menu6").addClass('filled');
+	    $(".menu0").removeClass('filled');
+	    $(".menu1").removeClass('filled');
+	    $(".menu2").removeClass('filled');
+	    $(".menu3").removeClass('filled');
+	    $(".menu4").removeClass('filled');
+	    $(".menu5").removeClass('filled');
+        $(".outerbox6").show();
+		$(".outerbox0").hide();
+		$(".outerbox1").hide();
+		$(".outerbox2").hide();
+		$(".outerbox3").hide();
+		$(".outerbox4").hide();
+		$(".outerbox5").hide();
+    });
+});
+</script>
+
+
+</head>
+
+<body>
+<div class="menu">
+<div class="circle menu0"></div>
+<div class="circle menu1"></div>
+<div class="circle menu2"></div>
+<div class="circle menu3"></div>
+<div class="circle menu4"></div>
+<div class="circle menu5"></div>
+<div class="circle menu6"></div>
+</div>
+
+
+<div class="outerbox0"></div>
+<div class="outerbox2"></div>
+<div class="outerbox3"></div>
+<div class="outerbox4"></div>
+<div class="outerbox5"></div>
+<div class="outerbox6"></div>
+
+
+
+<div class="outerbox1">
+<div class="container1">
+
+<div class="img1 f2"><img src="images/01.png"></div>
+<div class="img2 r4"><img src="images/02.png"></div>
+<div class="img3 f1"><img src="images/03.png"></div>
+<div class="img4 r6"><img src="images/04.png"></div>
+<div class="img5 f3"><img src="images/05.png"></div>
+<div class="img6 r3"><img src="images/06.png"></div>
+<div class="img7 f4"><img src="images/07.png"></div>
+<div class="img8 r4"><img src="images/08.png"></div>
+<div class="img9 f6"><img src="images/09.png"></div>
+<div class="img10 r6"><img src="images/10.png"></div>
+<div class="img11 f35"><img src="images/11.png"></div>
+<div class="img12 r35"><img src="images/12.png"></div>
+<div class="img13 f45"><img src="images/13.png"></div>
+<div class="img14 r45"><img src="images/14.png"></div>
+<div class="img15 f2"><img src="images/15.png"></div>
+<div class="img16 r2"><img src="images/16.png"></div>
+<div class="img17 f6"><img src="images/17.png"></div>
+<div class="img18 r6"><img src="images/18.png"></div>
+<div class="img19 f3"><img src="images/19.png"></div>
+<div class="img20 r3"><img src="images/20.png"></div>
+<div class="img21 f1"><img src="images/21.png"></div>
+<div class="img22 r1"><img src="images/22.png"></div>
+<div class="img23 f55"><img src="images/23.png"></div>
+<div class="img24 r55"><img src="images/24.png"></div>
+<div class="img25 f2"><img src="images/25.png"></div>
+<div class="img26 r2"><img src="images/26.png"></div>
+<div class="img27 f45"><img src="images/27.png"></div>
+<div class="img28 r45"><img src="images/28.png"></div>
+<div class="img29 f3"><img src="images/29.png"></div>
+<div class="img30 r3"><img src="images/30.png"></div>
+<div class="back1"></div>
+
+
+
+
+
+</div></div><!-- outer box and contatiner div end -->
+
+</body>
+
+<style>
+
+.menu {
+    width: 30px;
+    right:30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+}
+.circle {
+	border: 2px solid black;
+	border-radius: 50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.8;
+
+	-webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	width: 12px;
+	height: 12px;
+	z-index: 86;
+	margin:18px;
+
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}
+
+.circle.filled {
+	background-color: black;
+}
+
+.outerbox0 {
+	background-color:blue;
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+.outerbox2 {
+	background-color:red;
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+.outerbox3 {
+	background-color:green;
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+.outerbox4 {
+	background-color:yellow;
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+.outerbox5 {
+	background-color:orange;
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+.outerbox6 {
+	background-color:gray;
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+
+.outerbox1 {
+	height: 800px;
+	width: 1000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+
+.container1 {
+	margin:0px;
+	 overflow: hidden;
+}
+
+.allimg{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-99;
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.img1{
+	position:absolute;
+	top:40px;
+	left:345px;
+	z-index:-1;
+}
+
+.img2{
+	position:absolute;
+	top:-90px;
+	left:250px;
+	z-index:-2;
+}
+
+.img3{
+	position:absolute;
+	top:220px;
+	left:200px;
+	z-index:-3;
+}
+
+.img4{
+	position:absolute;
+	top:120px;
+	left:140px;
+	z-index:-4;
+}
+
+.img5{
+	position:absolute;
+	top:600px;
+	left:560px;
+	z-index:-5;
+}
+
+.img6{
+	position:absolute;
+	top:410px;
+	left:880px;
+	z-index:-6;
+}
+
+.img7{
+	position:absolute;
+	top:330px;
+	left:50px;
+	z-index:-7;
+}
+
+.img8{
+	position:absolute;
+	top:520px;
+	left:540px;
+	z-index:-8;
+}
+
+.img9{
+	position:absolute;
+	top:540px;
+	left:150px;
+	z-index:-9;
+}
+
+.img10{
+	position:absolute;
+	top:490px;
+	left:40px;
+	z-index:-10;
+}
+
+.img11{
+	position:absolute;
+	top:460px;
+	left:80px;
+	z-index:-11;
+}
+
+.img12{
+	position:absolute;
+	top:490px;
+	left:90px;
+	z-index:-12;
+}
+
+.img13{
+	position:absolute;
+	top:620px;
+	left:870px;
+	z-index:-13;
+}
+
+.img14{
+	position:absolute;
+	top:120px;
+	left:440px;
+	z-index:-14;
+}
+
+.img15{
+	position:absolute;
+	top:320px;
+	left:520px;
+	z-index:-15;
+}
+
+.img16{
+	position:absolute;
+	top:60px;
+	left:620px;
+	z-index:-16;
+}
+
+.img17{
+	position:absolute;
+	top:210px;
+	left:520px;
+	z-index:-17;
+}
+
+.img18{
+	position:absolute;
+	top:50px;
+	left:620px;
+	z-index:-18;
+}
+
+.img19{
+	position:absolute;
+	top:310px;
+	left:590px;
+	z-index:-19;
+}
+
+.img20{
+	position:absolute;
+	top:760px;
+	left:950px;
+	z-index:-20;
+}
+
+.img21{
+	position:absolute;
+	top:20px;
+	left:910px;
+	z-index:-21;
+}
+
+.img22{
+	position:absolute;
+	top:140px;
+	left:580px;
+	z-index:-22;
+}
+
+.img23{
+	position:absolute;
+	top:670px;
+	left:240px;
+	z-index:-23;
+}
+
+.img24{
+	position:absolute;
+	top:90px;
+	left:660px;
+	z-index:-24;
+}
+
+.img25{
+	position:absolute;
+	top:110px;
+	left:480px;
+	z-index:-25;
+}
+
+.img26{
+	position:absolute;
+	top:450px;
+	left:440px;
+	z-index:-26;
+}
+
+.img27{
+	position:absolute;
+	top:60px;
+	left:490px;
+	z-index:-27;
+}
+
+.img28{
+	position:absolute;
+	top:720px;
+	left:630px;
+	z-index:-28;
+}
+
+.img29{
+	position:absolute;
+	top:20px;
+	left:110px;
+	z-index:-29;
+}
+
+.img30{
+	position:absolute;
+	top:110px;
+	left:60px;
+	z-index:-30;
+}
+
+.img31{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-31;
+}
+
+.back1{
+	position:absolute;
+	background-color: #252525;
+	width:100%;
+	height:100%;
+	z-index:-99;
+}
+
+@keyframes fade {
+  0%, 100%   {
+  	-webkit-filter: grayscale(85%);
+    -mos-filter: grayscale(85%);
+    -moz-filter: grayscale(85%);
+    filter: grayscale(85%);
+  }
+  50% {
+  	-webkit-filter: grayscale(0%);
+    -mos-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%)
+  }
+  0%, 100%   { opacity: 0; }
+  25%, 75% { opacity: 1; }
+  50% { opacity: 1; }
+}
+
+
+.f1 {
+  -webkit-animation: fade 1s infinite; /* Safari 4+ */
+  -moz-animation:    fade 1s infinite; /* Fx 5+ */
+  -o-animation:      fade 1s infinite; /* Opera 12+ */
+  animation:         fade 1s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f2 {
+  -webkit-animation: fade 2s infinite; /* Safari 4+ */
+  -moz-animation:    fade 2s infinite; /* Fx 5+ */
+  -o-animation:      fade 2s infinite; /* Opera 12+ */
+  animation:         fade 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f3 {
+  -webkit-animation: fade 3s infinite; /* Safari 4+ */
+  -moz-animation:    fade 3s infinite; /* Fx 5+ */
+  -o-animation:      fade 3s infinite; /* Opera 12+ */
+  animation:         fade 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f35 {
+  -webkit-animation: fade 3.5s infinite; /* Safari 4+ */
+  -moz-animation:    fade 3.5s infinite; /* Fx 5+ */
+  -o-animation:      fade 3.5s infinite; /* Opera 12+ */
+  animation:         fade 3.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f4 {
+  -webkit-animation: fade 4s infinite; /* Safari 4+ */
+  -moz-animation:    fade 4s infinite; /* Fx 5+ */
+  -o-animation:      fade 4s infinite; /* Opera 12+ */
+  animation:         fade 4s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f45 {
+  -webkit-animation: fade 4.5s infinite; /* Safari 4+ */
+  -moz-animation:    fade 4.5s infinite; /* Fx 5+ */
+  -o-animation:      fade 4.5s infinite; /* Opera 12+ */
+  animation:         fade 4.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f5 {
+  -webkit-animation: fade 5s infinite; /* Safari 4+ */
+  -moz-animation:    fade 5s infinite; /* Fx 5+ */
+  -o-animation:      fade 5s infinite; /* Opera 12+ */
+  animation:         fade 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f55 {
+  -webkit-animation: fade 5.5s infinite; /* Safari 4+ */
+  -moz-animation:    fade 5.5s infinite; /* Fx 5+ */
+  -o-animation:      fade 5.5s infinite; /* Opera 12+ */
+  animation:         fade 5.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.f6 {
+  -webkit-animation: fade 6s infinite; /* Safari 4+ */
+  -moz-animation:    fade 6s infinite; /* Fx 5+ */
+  -o-animation:      fade 6s infinite; /* Opera 12+ */
+  animation:         fade 6s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes revf {
+  50%   {
+  	-webkit-filter: grayscale(95%);
+    -mos-filter: grayscale(95%);
+    -moz-filter: grayscale(95%);
+    filter: grayscale(95%);
+  }
+
+
+  0%, 100% {
+  	-webkit-filter: grayscale(0%);
+    -mos-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%)
+  }
+  0%, 100%   { opacity: 1; }
+  30%, 70% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.r1 {
+  -webkit-animation: revf 1s infinite; /* Safari 4+ */
+  -moz-animation:    revf 1s infinite; /* Fx 5+ */
+  -o-animation:      revf 1s infinite; /* Opera 12+ */
+  animation:         revf 1s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r2 {
+  -webkit-animation: revf 2s infinite; /* Safari 4+ */
+  -moz-animation:    revf 2s infinite; /* Fx 5+ */
+  -o-animation:      revf 2s infinite; /* Opera 12+ */
+  animation:         revf 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r3 {
+  -webkit-animation: revf 3s infinite; /* Safari 4+ */
+  -moz-animation:    revf 3s infinite; /* Fx 5+ */
+  -o-animation:      revf 3s infinite; /* Opera 12+ */
+  animation:         revf 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r35 {
+  -webkit-animation: revf 3.5s infinite; /* Safari 4+ */
+  -moz-animation:    revf 3.5s infinite; /* Fx 5+ */
+  -o-animation:      revf 3.5s infinite; /* Opera 12+ */
+  animation:         revf 3.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r4 {
+  -webkit-animation: revf 4s infinite; /* Safari 4+ */
+  -moz-animation:    revf 4s infinite; /* Fx 5+ */
+  -o-animation:      revf 4s infinite; /* Opera 12+ */
+  animation:         revf 4s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r45 {
+  -webkit-animation: revf 4.5s infinite; /* Safari 4+ */
+  -moz-animation:    revf 4.5s infinite; /* Fx 5+ */
+  -o-animation:      revf 4.5s infinite; /* Opera 12+ */
+  animation:         revf 4.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r5 {
+  -webkit-animation: revf 5s infinite; /* Safari 4+ */
+  -moz-animation:    revf 5s infinite; /* Fx 5+ */
+  -o-animation:      revf 5s infinite; /* Opera 12+ */
+  animation:         revf 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r55 {
+  -webkit-animation: revf 5.5s infinite; /* Safari 4+ */
+  -moz-animation:    revf 5.5s infinite; /* Fx 5+ */
+  -o-animation:      revf 5.5s infinite; /* Opera 12+ */
+  animation:         revf 5.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.r6 {
+  -webkit-animation: revf 6s infinite; /* Safari 4+ */
+  -moz-animation:    revf 6s infinite; /* Fx 5+ */
+  -o-animation:      revf 6s infinite; /* Opera 12+ */
+  animation:         revf 6s infinite; /* IE 10+, Fx 29+ */
+}
+
+
+
+
+
+</style>
+
+</html>

@@ -1,0 +1,23 @@
+#u233
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u150
+{
+	background-color: transparent;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+}
+
+#u227,#u155,#u175,#u195,#u130,#u190,#u94,#u100,#u105,#u110,#u115,#u125,#u135,#u140,#u145,#u160,#u185,#u165,#u170,#u180,#u120
+{
+	background-color: transparent;
+	position: relative;
+}
+

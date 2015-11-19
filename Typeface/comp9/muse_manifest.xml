@@ -1,0 +1,36 @@
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://kyungjunjanggithubio-kyungjunjang.c9.io" resolutions="1x" timestamp="1446642392915">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="master_a-master.css" crc="4088373899" ref="index"/>
+    <file name="index.css" crc="184238166" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index"/>
+    <file name="museutils.js" crc="183364071" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="com9_0021_layer-0.jpg" crc="4102070929" seo="true" ref="index"/>
+    <file name="com9_0012_layer-4-copy.png" crc="323205583" seo="true" ref="index"/>
+    <file name="com9_0016_ellipse-1.png" crc="4177619738" seo="true" ref="index"/>
+    <file name="com9_0020_rectangle-1.jpg" crc="4100114656" seo="true" ref="index"/>
+    <file name="com9_0007_rounded-rectangle-2.png" crc="4162692410" seo="true" ref="index"/>
+    <file name="com9_0019_rectangle-5-copy.png" crc="383279004" seo="true" ref="index"/>
+    <file name="com9_0000_layer-3.png" crc="69372614" seo="true" ref="index"/>
+    <file name="com9_0001_e.png" crc="214396946" seo="true" ref="index"/>
+    <file name="com9_0002_rectangle-2.png" crc="4224692991" seo="true" ref="index"/>
+    <file name="com9_0003_rectangle-4-copy-3.jpg" crc="4192296337" seo="true" ref="index"/>
+    <file name="com9_0004_rectangle-4-copy-2.jpg" crc="3840168727" seo="true" ref="index"/>
+    <file name="com9_0006_rectangle-4.jpg" crc="4175565687" seo="true" ref="index"/>
+    <file name="com9_0008_ellipse-2.png" crc="4072320118" seo="true" ref="index"/>
+    <file name="com9_0009_rectangle-3.jpg" crc="4211358162" seo="true" ref="index"/>
+    <file name="com9_0010_layer-5.png" crc="202780847" seo="true" ref="index"/>
+    <file name="com9_0013_layer-4.png" crc="3797651426" seo="true" ref="index"/>
+    <file name="com9_0018_layer-6.png" crc="524124020" seo="true" ref="index"/>
+    <file name="com9_0014_rectangle-5.png" crc="4279534275" seo="true" ref="index"/>
+    <file name="com9_0015_layer-1.png" crc="4031744068" seo="true" ref="index"/>
+    <file name="com9_0017_rectangle-6.jpg" crc="475520656" seo="true" ref="index"/>
+    <file name="com9_0011_layer-4-copy-2.png" crc="503769980" seo="true" ref="index"/>
+    <file name="com9_0005_rectangle-4-copy.jpg" crc="4175565687" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4235522051" seo="true" mt="1446642361593" redirect="true"/>
+</manifest>
