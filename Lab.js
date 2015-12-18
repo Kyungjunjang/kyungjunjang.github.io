@@ -1,6 +1,8 @@
 <center> <h1>POP ART by Keith Haring</h1></center>
 
 <script language="javascript">
+style atrribute {
+
 
 var delay=1000 
 var curindex=0
